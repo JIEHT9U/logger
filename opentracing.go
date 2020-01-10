@@ -3,7 +3,7 @@ package logger
 import (
 	"context"
 
-	"github.com/opentracing/opentracing-gofieldadapter"
+	"github.com/opentracing/opentracing-go"
 	tag "github.com/opentracing/opentracing-go/ext"
 	"go.uber.org/zap"
 
